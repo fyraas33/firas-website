@@ -1,0 +1,164 @@
+body{
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg');  
+    font-weight: 200;
+    font-style: italic;
+    
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(7, 185, 216);
+  position: fixed; 
+  top: 0;
+  width: 100%; 
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: rgb(139, 139, 139);
+  color: rgb(0, 225, 255);
+}
+
+.main {
+  margin-top: 30px;
+}
+/*home section*/
+.background-img{
+  background-image: url("firas.jpg");
+  background-color: #000000; 
+  height: 969px;
+  width: 100%;
+  background-position: center;          
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.homee {
+    
+  text-align: center;
+  margin: 10%;  
+    
+}
+#hello{
+    color: #ffffff;
+    
+    font-size: 60px;
+    line-height: 1.565;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    text-shadow: 2px 2px #000000;
+    margin: 0%;
+    }
+
+ #firas-chagra{
+   color: aqua;
+   font-size: 10vh;
+   text-shadow: 2px 2px #000000;
+   margin: 0%;
+   
+ 
+ } 
+#developer{
+  color: #ffffff;
+  font-size: 60px;
+  text-shadow: 4px 4px #000000;
+  margin: 0%;
+  
+}
+/* about section*/
+#about{
+  text-align: center;
+  padding-top: 6rem ;
+  padding-bottom: 6rem;
+}
+.aboutt{
+  
+  
+    margin-top: 4.2rem;
+    margin-right: -30px;
+    margin-left: -30px;
+
+}
+.profile-img{
+  border-radius: 50%;
+  width: 9rem;
+  height: 10rem;
+  margin-right: 27rem;
+  margin-bottom: 2%;
+  
+
+}
+.born{
+  margin-top: -7%;
+  font-size: larger;
+  
+}
+.maps{
+  margin-left: 15%;
+  margin-top: 2%;
+}
+.about-title{
+  color: blue;
+  letter-spacing: 0.5rem;
+}
+/* work section */
+.work{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  list-style-position: inside;
+  
+
+}
+.work-title{
+  color: blue;
+  letter-spacing: 0.5rem;
+}
+.work-at{
+  margin-right: 5%;
+  font-size: larger;
+}
+/* resume section*/
+.resume{
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.resume-title{
+  letter-spacing: 0.5rem;
+  color: blue;
+}
+.education{
+  text-decoration: overline;
+}
+#full,#may{
+  font-size: larger;
+}
+/* contact section*/
+.contact{
+  margin-left: 80%;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.contactt{
+  letter-spacing: 0.5rem;
+}
+.email{
+  font-size: larger;
+}
+.back-top{
+  margin-left: 5%;
+}
